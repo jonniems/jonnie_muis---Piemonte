@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <title>Piemonte - Home of Italies finest wines</title>
+</head>
+
+<body>
+    <nav>
+        <div class="hamburger">
+            <img src="img/png/menu.png" />
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="wines.html">Wines</a>
+            <a href="restaurants.html">Restaurants</a>
+            <a href="hotels.html">Hotels</a>
+            <a class="active" href="contact.html">Contact</a>
+        </div>
+        <div class="search">
+            <form name="search">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><img src="img/png/search.png"></button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+
+        <div class="contact-header">
+            <h1>Contact</h1>
+            <h2>We'd love to help you!</h2>
+        </div>
+
+        <div class="contact-form-container">
+            <form name="contact" method="POST" data-netlify="true">
+                <input placeholder="Name" type="text" name="name" />
+                <input placeholder="Email address" type="email" name="email" />
+                <textarea placeholder="Your question..." name="biography"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="contact-telephone">
+            <h3>Or call us</h3>
+            <div class="contact-telephone-number">
+                <img src="img/png/phone.png" /><a href="tel:0123456789">(0372) 530 3484</a>
+            </div>
+        </div>
+
+        <div class="contact-address">
+            <img class="address-white" src="img/png/address-white.png" />
+            <img class="address-black" src="img/png/address-black.png" />
+            <p><strong>Piemonte.it</strong><br>
+                Via Francesco Saverio Correra 141<br>
+                Alba<br>
+                Cuneo, 12051
+            </p>
+        </div>
+
+        <div class="contact-maps">
+            <iframe width="100%" height="100%" id="contact-maps-canvas"
+                src="https://maps.google.com/maps?q=alba%2C%20italy&t=&z=12&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+
+        <footer>
+            <div class="social">
+                <a href="#"><img src="img/png/instagram.png" /></a>
+                <a href="#"><img src="img/png/twitter.png" /></a>
+                <a href="#"><img src="img/png/facebook.png" /></a>
+                <a href="#"><img src="img/png/youtube.png" /></a>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>|</li>
+                    <li><a href="wines.html">Wines</a></li>
+                    <li>|</li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li>|</li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li>|</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <a href="#">&copy; Copyright 2020 Jonnie Muis</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
